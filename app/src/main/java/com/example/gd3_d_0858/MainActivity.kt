@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
             if(username.isEmpty()){
                 inputUsername.setError("Username must be filled with text")
                 checkLogin = false
-                //hahaha
             }
 
             if(password.isEmpty()){
